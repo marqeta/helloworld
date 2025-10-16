@@ -1,0 +1,35 @@
+{
+  "name": "@marqeta/helloworld",
+  "version": "1.0.0",
+  "description": "A simple hello world package for testing npm publishing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "test:verbose": "node --test --test-reporter=spec"
+  },
+  "keywords": [
+    "hello",
+    "world",
+    "test",
+    "marqeta"
+  ],
+  "author": "Marqeta, Inc.",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marqeta/helloworld.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marqeta/helloworld/issues"
+  },
+  "homepage": "https://github.com/marqeta/helloworld#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
