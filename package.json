@@ -1,6 +1,6 @@
 {
   "name": "@marqeta/helloworld",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple hello world package for testing npm publishing",
   "main": "index.js",
   "type": "module",
